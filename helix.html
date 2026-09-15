@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Helix is Core AI's experimental language model family."
+  >
+
+  <title>Helix — Core AI</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body data-page="helix">
+
+  <!-- Mobile Navigation -->
+  <button
+    class="menu-button"
+    id="menuButton"
+    type="button"
+    aria-label="Open navigation"
+    aria-expanded="false"
+  >
+    ☰
+  </button>
+
+  <div
+    class="sidebar-backdrop"
+    id="sidebarBackdrop"
+  ></div>
+
+
+  <!-- Sidebar -->
+  <aside
+    class="sidebar"
+    id="sidebar"
+  >
+
+    <div class="sidebar-top">
+
+      <a
+        class="brand"
+        href="index.html"
+      >
+        Core AI
+      </a>
+
+
+      <nav
+        class="nav"
+        aria-label="Main navigation"
+      >
+
+        <a
+          data-nav="home"
+          href="index.html"
+        >
+          Home
+        </a>
+
+        <a
+          data-nav="helix"
+          href="helix.html"
+        >
+          Helix
+        </a>
+
+        <a
+          data-nav="research"
+          href="research.html"
+        >
+          Research
+        </a>
+
+        <a
+          data-nav="developers"
+          href="developers.html"
+        >
+          Developers
+        </a>
+
+        <a
+          data-nav="about"
+          href="about.html"
+        >
+          About
+        </a>
+
+      </nav>
+
+    </div>
+
+
+    <div class="sidebar-footer">
+
+      <a
+        class="model-status"
+        href="helix.html"
+      >
+
+        <span>
+          Current research model
+        </span>
+
+        <strong>
+          Helix 0.1
+        </strong>
+
+        <small>
+          Research Preview
+        </small>
+
+      </a>
+
+
+      <p>
+        Copyright © 2026 Core AI.<br>
+        All Rights Reserved.
+      </p>
+
+    </div>
+
+  </aside>
+
+
+  <!-- Main Content -->
+  <main class="main">
+
+    <!-- Hero -->
+    <section class="hero section compact">
+
+      <p class="eyebrow">
+        HELIX MODEL FAMILY
+      </p>
+
+      <h1>
+        Language models<br>
+        from the ground up.
+      </h1>
+
+      <p class="lead">
+        Helix is Core AI's experimental model family.
+        Helix 0.1 is the first proof that our training,
+        checkpointing, and generation pipeline works end to end.
+      </p>
+
+    </section>
+
+
+    <!-- Helix 0.1 -->
+    <section class="section bordered">
+
+      <div class="model-title">
+
+        <div>
+
+          <p class="eyebrow">
+            RESEARCH PREVIEW
+          </p>
+
+          <h2>
+            Helix 0.1
+          </h2>
+
+        </div>
+
+
+        <span class="pill">
+          Experimental
+        </span>
+
+      </div>
+
+
+      <!-- Model Stats -->
+      <div class="stats">
+
+        <div>
+
+          <strong>
+            ~822K
+          </strong>
+
+          <span>
+            Parameters
+          </span>
+
+        </div>
+
+
+        <div>
+
+          <strong>
+            342K
+          </strong>
+
+          <span>
+            Training tokens
+          </span>
+
+        </div>
+
+
+        <div>
+
+          <strong>
+            2,000
+          </strong>
+
+          <span>
+            Training steps
+          </span>
+
+        </div>
+
+
+        <div>
+
+          <strong>
+            PyTorch
+          </strong>
+
+          <span>
+            Training stack
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <!-- Model Explanation -->
+      <div class="prose">
+
+        <h3>
+          What Helix 0.1 proves
+        </h3>
+
+        <p>
+          Helix 0.1 was trained from randomly initialized weights
+          on a small experimental dataset. It demonstrates the
+          complete development loop: tokenize data, train a
+          transformer, save checkpoints, and generate text.
+        </p>
+
+        <p>
+          Its tiny dataset means it can memorize training patterns
+          and should not be treated as a general-purpose assistant.
+          The goal of Helix 0.1 is infrastructure validation.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- What's Next -->
+    <section class="section">
+
+      <p class="eyebrow">
+        NEXT
+      </p>
+
+      <h2>
+        Beyond 0.1.
+      </h2>
+
+
+      <div class="grid">
+
+        <article>
+
+          <span>
+            01
+          </span>
+
+          <h3>
+            Dataset V2
+          </h3>
+
+          <p>
+            Broader and more varied training material with
+            dedicated validation data.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <span>
+            02
+          </span>
+
+          <h3>
+            Better tokenization
+          </h3>
+
+          <p>
+            Move beyond the initial character-level tokenizer
+            toward a more capable subword tokenization system.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <span>
+            03
+          </span>
+
+          <h3>
+            Evaluation
+          </h3>
+
+          <p>
+            Measure generalization instead of relying only on
+            training loss.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
