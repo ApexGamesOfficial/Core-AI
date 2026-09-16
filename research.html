@@ -6,7 +6,7 @@
 
   <meta
     name="description"
-    content="Explore Core AI research into model architecture, training systems, data, tokenization, and evaluation."
+    content="Explore Core AI research across model architecture, training systems, data, tokenization, and evaluation."
   >
 
   <title>Research — Core AI</title>
@@ -76,10 +76,31 @@
         </a>
 
         <a
+          data-nav="news"
+          href="news.html"
+        >
+          News
+        </a>
+
+        <a
           data-nav="developers"
           href="developers.html"
         >
           Developers
+        </a>
+
+        <a
+          data-nav="partners"
+          href="partners.html"
+        >
+          Partners
+        </a>
+
+        <a
+          data-nav="safety"
+          href="safety.html"
+        >
+          Safety
         </a>
 
         <a
@@ -142,8 +163,9 @@
       </h1>
 
       <p class="lead">
-        Our work focuses on the foundations required to build,
-        train, evaluate, and improve language models.
+        Core AI research focuses on the systems underneath
+        language models: architecture, training, data,
+        tokenization, and evaluation.
       </p>
 
     </section>
@@ -151,6 +173,11 @@
 
     <!-- Research Areas -->
     <section class="section bordered">
+
+      <p class="eyebrow">
+        RESEARCH AREAS
+      </p>
+
 
       <div class="list">
 
@@ -167,9 +194,9 @@
             </h3>
 
             <p>
-              Exploring transformer architecture, attention,
-              embeddings, context processing, and efficient
-              model design.
+              Exploring transformer architecture, model
+              structure, parameter scaling, and the systems
+              that determine how Helix processes information.
             </p>
 
           </div>
@@ -190,9 +217,9 @@
             </h3>
 
             <p>
-              Building training loops, GPU workflows,
-              checkpointing, sampling systems, and
-              reproducible experiments.
+              Developing the training loop, checkpointing,
+              optimization, monitoring, and infrastructure
+              required to train Helix models reliably.
             </p>
 
           </div>
@@ -213,9 +240,8 @@
             </h3>
 
             <p>
-              Studying how dataset quality, diversity,
-              tokenization, and validation affect what
-              a model learns.
+              Studying how training data is prepared and how
+              text is represented before it reaches the model.
             </p>
 
           </div>
@@ -236,9 +262,9 @@
             </h3>
 
             <p>
-              Developing ways to distinguish memorization
-              from generalization and measure meaningful
-              capability improvements.
+              Building ways to measure model behavior,
+              generalization, limitations, and improvements
+              across research iterations.
             </p>
 
           </div>
@@ -250,7 +276,7 @@
     </section>
 
 
-    <!-- Research Philosophy -->
+    <!-- Approach -->
     <section class="section">
 
       <p class="eyebrow">
@@ -263,11 +289,105 @@
       </h2>
 
       <p class="lead">
-        Each Helix experiment gives Core AI another piece of the
-        system to measure and improve. Small experiments establish
-        the pipeline before larger models demand larger datasets,
-        longer training runs, and more compute.
+        Small experiments establish the pipeline first.
+        Each result helps determine what should change before
+        larger models, larger datasets, and more compute are
+        introduced.
       </p>
+
+    </section>
+
+
+    <!-- Current Work -->
+    <section class="section bordered">
+
+      <p class="eyebrow">
+        CURRENT WORK
+      </p>
+
+      <h2>
+        From pipeline proof<br>
+        to better models.
+      </h2>
+
+
+      <div class="grid">
+
+        <article>
+
+          <span>
+            01
+          </span>
+
+          <h3>
+            Dataset V2
+          </h3>
+
+          <p>
+            Develop a larger and more varied experimental
+            dataset for the next Helix training cycle.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <span>
+            02
+          </span>
+
+          <h3>
+            Subword Tokenization
+          </h3>
+
+          <p>
+            Move beyond Helix 0.1's character-level
+            tokenizer toward a more capable subword
+            representation.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <span>
+            03
+          </span>
+
+          <h3>
+            Validation
+          </h3>
+
+          <p>
+            Separate training performance from validation
+            performance so future experiments can measure
+            generalization more clearly.
+          </p>
+
+        </article>
+
+      </div>
+
+
+      <div class="actions">
+
+        <a
+          class="button primary"
+          href="helix.html"
+        >
+          Explore Helix →
+        </a>
+
+        <a
+          class="button"
+          href="safety.html"
+        >
+          Safety &amp; Evaluation
+        </a>
+
+      </div>
 
     </section>
 
